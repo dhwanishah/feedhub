@@ -1,0 +1,306 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codemaroon.feedhub.Fragments.ChatFragment"
+    android:background="@android:color/white">
+
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:id="@+id/txtSender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text=""
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="10dp"
+            android:paddingBottom="6dp"
+            android:textColor="@android:color/black" android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="2dp"
+            android:paddingBottom="6dp"
+            android:textSize="12sp"
+            android:text=""
+            android:layout_alignBottom="@+id/txtSender"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSender"
+            android:layout_alignParentLeft="true"
+            android:padding="12dp"
+            android:background="#1DADEB"
+            >
+
+            <TextView
+                android:id="@+id/txtMessage"
+                android:paddingLeft="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:text="Hello"
+                />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp">
+        <TextView
+            android:id="@+id/txtSender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text=""
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:layout_alignParentRight="true"
+            android:paddingRight="10dp"
+            android:paddingBottom="6dp"
+            android:textColor="@android:color/black" android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+            android:paddingBottom="6dp"
+            android:textSize="12sp"
+            android:text=""
+            android:layout_alignBottom="@+id/txtSender"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSender"
+            android:layout_alignParentRight="true"
+            android:padding="12dp"
+            android:background="#1DADEB"
+            >
+
+            <TextView
+                android:id="@+id/txtMessage"
+                android:paddingRight="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:text="Hello, how are you?"
+                />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="120dp">
+
+        <TextView
+            android:id="@+id/txtSender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text=""
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="10dp"
+            android:paddingBottom="6dp"
+            android:textColor="@android:color/black" android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="2dp"
+            android:paddingBottom="6dp"
+            android:textSize="12sp"
+            android:text=""
+            android:layout_alignBottom="@+id/txtSender"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSender"
+            android:layout_alignParentLeft="true"
+            android:padding="12dp"
+            android:background="#1DADEB"
+            >
+
+            <TextView
+                android:id="@+id/txtMessage"
+                android:paddingLeft="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:text="Thanks for the invite. I love Qudoba! You still good with lunch?"
+                />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="195dp">
+        <TextView
+            android:id="@+id/txtSender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text=""
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:layout_alignParentRight="true"
+            android:paddingRight="10dp"
+            android:paddingBottom="6dp"
+            android:textColor="@android:color/black" android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+            android:paddingBottom="6dp"
+            android:textSize="12sp"
+            android:text=""
+            android:layout_alignBottom="@+id/txtSender"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSender"
+            android:layout_alignParentRight="true"
+            android:padding="12dp"
+            android:background="#1DADEB"
+            >
+
+            <TextView
+                android:id="@+id/txtMessage"
+                android:paddingRight="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:text="No Problem! Let's meet up there around 12pm?"
+                />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="255dp">
+
+        <TextView
+            android:id="@+id/txtSender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text=""
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="10dp"
+            android:paddingBottom="6dp"
+            android:textColor="@android:color/black" android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="2dp"
+            android:paddingBottom="6dp"
+            android:textSize="12sp"
+            android:text=""
+            android:layout_alignBottom="@+id/txtSender"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSender"
+            android:layout_alignParentLeft="true"
+            android:padding="12dp"
+            android:background="#1DADEB"
+            >
+
+            <TextView
+                android:id="@+id/txtMessage"
+                android:paddingLeft="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:text="Sounds good to me! See you there :)"
+                />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/divider"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/colorPrimary"
+        android:layout_above="@+id/relSendMessage" />
+
+    <RelativeLayout
+        android:id="@+id/relSendMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:background="@android:color/white"
+        android:paddingLeft="10dp"
+        android:layout_marginRight="95dp"
+        android:layout_alignParentBottom="true">
+
+
+        <EditText
+            android:layout_marginBottom="-4dp"
+            android:id="@+id/messageBodyField"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="..."
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="10dp"
+            android:layout_alignTop="@+id/sendButton"
+            android:background="@android:color/white"
+            android:layout_alignBottom="@+id/sendButton"
+            android:layout_toLeftOf="@+id/sendButton"/>
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="40dp"
+            android:padding="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_margin="4dp"
+            android:background="@mipmap/androidsend" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

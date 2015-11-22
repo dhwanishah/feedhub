@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    tools:context="com.codemaroon.feedhub.Fragments.AddNewFeedDialogFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Post a meal"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/textView3" />
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Pick a time:" android:textSize="16dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Breakfast (7am-10am)"
+            android:id="@+id/bfastCheck" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lunch (10am-3pm)"
+            android:id="@+id/lunchCheck" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dinner (3pm - 12am)"
+            android:id="@+id/dinnerCheck" />
+    </LinearLayout>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addVenue"
+        android:hint="Add a venue"
+        android:padding="10dp"
+        android:background="@drawable/inputbox"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="left|top" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post"
+        android:textColor="#FFFFFF"
+        android:id="@+id/addNewButton"
+        android:background="@drawable/buttonshape"
+        android:layout_gravity="left|top" />
+
+</LinearLayout>
